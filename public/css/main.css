@@ -1,0 +1,187 @@
+/*GENERAL*/
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*UTILITIES*/
+.wrapper {
+  padding: 15% 10%;
+}
+.bg-yellow {
+  background-color: #fbd43b;
+}
+.bg-redBullet{
+  background-color: #f64552;
+}
+.bg-grayBullet{
+  background-color: #f8f8f8;
+}
+.bg-gray{
+  background-color: #8f8f8f;
+}
+.bg-grayDark {
+  background-color: #212121;
+}
+.text-size078{
+  font-size: 0.78rem;
+}
+.text-white {
+  color: #ffffff;
+}
+.text-gray{
+  color: #8f8f8f;
+}
+.text-grayDark {
+  color: #212121;
+}
+.text-center {
+  text-align: center;
+}
+.btn-confirm {
+  border-radius: 5px;
+  padding: 1rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.link {
+  color: #00c3a3;
+  font-weight: bold;
+  text-decoration: none;
+  outline: 0;
+}
+
+/*REUSABLE COMPONENTS*/
+/*Slide*/
+.slide .picture-container img {
+  width: 80%;
+}
+
+/*Slide Buttons*/
+.slide-buttons {
+  padding: 1rem 0;
+}
+.slide-buttons span{
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  margin: 0 0.15rem;
+  width: 15px;
+}
+
+/*Title*/
+.title {
+  padding: 1rem 0;
+}
+
+/*Title*/
+.subtitle {
+  padding: 1rem 0;
+}
+
+/*Instructions*/
+.instructions {
+  color: #8f8f8f;
+  padding: 0.5rem  0;
+}
+
+.instructions p {
+  font-size: 0.78rem;
+  font-weight: bold;
+}
+
+/*Recomendations*/
+.recommendations {
+  padding: 1rem 0;
+}
+.recommendations  p{
+  font-size: 0.78rem;
+  font-weight: bold;
+  color: #afafaf;
+}
+
+/*Button Confirm*/
+.btn-container {
+  padding: 1rem 0;
+}
+
+/*Icon Screen*/
+.icon-container img {
+  width: 50%;
+}
+
+/*User Action*/
+.user-action {
+  padding: 3rem 0;
+}
+
+/*Input*/
+.input-field {
+  align-items: center;
+  border-bottom: 2px solid #afafaf;
+  display: flex;
+}
+.input-field .prefix,
+.input-field input{
+  margin-bottom: 0.25rem;
+  margin-left: 2.5%;
+}
+.input-field i.prefix{
+  width: 7.5%;
+}
+.input-field i.prefix img{
+  width: 100%;
+}
+.input-field input{
+  font-size: 1.25rem;
+  outline: 0;
+  width: 87.5%;
+}
+
+/*Checkbox*/
+.checkbox-field {
+  padding: 1rem 0;
+}
+
+.checkbox-field label {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+/*COMPONENTS*/
+/*Welcome*/
+.welcome .btn-confirm {
+  width: 100%;
+}
+.welcome .instructions p {
+  font-size: 1rem;
+}
+
+/*Register Phone*/
+.register-phone .btn-confirm {
+  width: 50%;
+}
+.register-phone .input-field input{
+  width: 70%;
+}
+.register-phone .input-field i.prefix{
+  width: 29%;
+}
+.register-phone .input-field input{
+  width: 66%;
+}
+
+/*Resend Code*/
+.resend-code .recommendations i {
+  bottom: -2px;
+  display: inline-block;
+  position: relative;
+  width: 9.5%;
+}
+.resend-code .recommendations i img {
+  width: 60%;
+}
