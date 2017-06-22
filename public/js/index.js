@@ -25,7 +25,7 @@ const render = (current_screen) => {
 
   switch (current_screen) {
     case null:
-      wrapper.append(Welcome());
+      wrapper.append(S1LoadingPage());
       break;
     case "Register_Phone":
       wrapper.append(Register_Phone());
@@ -50,7 +50,7 @@ const render = (current_screen) => {
       // wrapper.append(Create_User());
       break;
     default:
-      wrapper.append(Welcome());
+      wrapper.append(S1LoadingPage());
   }
   root.append(wrapper);
 }
