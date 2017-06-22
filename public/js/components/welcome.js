@@ -1,9 +1,8 @@
 'use strict';
 
 const Welcome = () => {
+  const wrapper = $(".wrapper").append(Slide());
   const welcome = $("<div class='welcome'></div>");
-
-  welcome.append(Slide());
 
   const container_confirm_btn = Confirm_btn("registrarme", show_Register_Phone);
   enable_disable_btn(container_confirm_btn.find(".btn-confirm"), "enabled");

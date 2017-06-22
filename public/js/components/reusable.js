@@ -1,8 +1,8 @@
 const texts = {
-  titles :        ["Paga a tus amigos"],
-  messages :      ["Paga a quien quieras desde donde quieras, sin usar efectivo"],
-  subtitles :     ["Para comenzar validaremos tu número",
-                   "Ahora ingresa tu código"],
+  titles :        ["Paga a tus amigos", "Sin número de cuenta", "Gratis y Seguro"],
+  messages :      ["Paga a quien quieras desde donde quieras, sin usar efectivo", "Elige a quién pagar desde tu lista de contactos.", "La transferencia es inmediata y gratuita de una cuenta a otra"],
+  img:            ["assets/img/icons/icon-people.png", "assets/img/icons/happy-person.png", "assets/img/icons/group-people.png"],
+  subtitles :     ["Para comenzar validaremos tu número","Ahora ingresa tu código"],
   instructions :  ["Recibirás un SMS con un código de validación",
                    "Enviamos un SMS con el código de validación al número "],
   recommendations:["Reintentar en"]

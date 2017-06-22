@@ -20,11 +20,11 @@ var chronometer = null;
 
 const render = (current_screen) => {
   const root = $('.root');
-  root.empty();
-  const wrapper = $('<div class="wrapper"></div>');
+   const wrapper = $('<div class="wrapper"></div>');
 
   switch (current_screen) {
     case null:
+      wrapper.append(Slide());
       wrapper.append(Welcome());
       break;
     case "Register_Phone":
@@ -53,6 +53,14 @@ const render = (current_screen) => {
       wrapper.append(Welcome());
   }
   root.append(wrapper);
+  $('.owl-carousel').owlCarousel({
+    margin:10,
+    loop:true,
+    responsive:{
+        0:{
+            items:1}
+        },
+  })
 }
 
 $( _ => {
