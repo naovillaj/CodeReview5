@@ -20,6 +20,7 @@ var chronometer = null;
 
 const render = (current_screen) => {
   const root = $('.root');
+  root.empty();
    const wrapper = $('<div class="wrapper"></div>');
 
   switch (current_screen) {
@@ -34,9 +35,10 @@ const render = (current_screen) => {
       wrapper.append(Resend_Code());
       if (accountant == 0) {
         chronometer = setInterval(function () {
+          const limit = 21;
           accountant ++
-          $(".show-counter").text(accountant);
-          if (accountant == 21) {
+          $(".show-counter").text(limit - accountant);
+          if (accountant == limit) {
             clearInterval(chronometer);
             console.log("se acabo el tiempo");
             postDATA("api/resendCode", {phone: current_user.phone});

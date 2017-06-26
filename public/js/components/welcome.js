@@ -1,7 +1,6 @@
 'use strict';
 
 const Welcome = () => {
-  const wrapper = $(".wrapper").append(Slide());
   const welcome = $("<div class='welcome'></div>");
 
   const container_confirm_btn = Confirm_btn("registrarme", show_Register_Phone);
