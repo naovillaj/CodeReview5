@@ -27,6 +27,9 @@ body {
 .bg-grayDark {
   background-color: #212121;
 }
+.bg-purple {
+  background-color: #421f35;
+}
 .text-size078{
   font-size: 0.78rem;
 }
@@ -41,9 +44,6 @@ body {
 }
 .text-center {
   text-align: center;
-}
-.root{
-  background: #421f35;
 }
 .container-S1{
   margin: 0;

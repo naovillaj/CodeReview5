@@ -25,8 +25,17 @@ const render = (current_screen) => {
 
   switch (current_screen) {
     case null:
+      root.addClass("bg-purple");
       wrapper.append(S1LoadingPage());
+      setTimeout(() => {
+        state.current_screen = "Welcome";
+        render(state.current_screen);
+      }, 3000);
       break;
+      case "Welcome":
+        root.removeClass("bg-purple");
+        wrapper.append(Welcome());
+        break;
     case "Register_Phone":
       wrapper.append(Register_Phone());
       break;
