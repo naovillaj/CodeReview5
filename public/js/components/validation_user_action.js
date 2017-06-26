@@ -6,8 +6,6 @@ const validations = {
       this.state = (/^9[0-9]{8}$/g).test(value);
       if (this.state) {
         this.value = value;
-      }else {
-        console.log("Formato de teléfono incorrecto");
       }
     }
   },
@@ -18,8 +16,6 @@ const validations = {
       this.state = value;
       if (this.state) {
         this.value = value;
-      }else {
-        console.log("Términos no aceptados");
       }
     }
   },
@@ -31,9 +27,6 @@ const validations = {
       if (value == current_user.code) {
         this.state = true;
         this.value = value;
-        console.log("Código correcto");
-      }else {
-        console.log("Código incorrecto");
       }
     }
   }
@@ -65,16 +58,13 @@ const validate_resend_code =  () => {
   let correct_data = 0;
   if (validations.code.state) {
     correct_data ++
-    console.log(correct_data);
   }
 
   if (correct_data == data.length) {
-    console.log("Total datos correctos " + correct_data);
     clearInterval(chronometer);
     console.log("se detuvo el cronometro");
     return true
   }else {
-    console.log("Total datos incorrectos " + (data.length - correct_data));
     return false
   }
 }

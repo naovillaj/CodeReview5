@@ -35,7 +35,7 @@ const render = (current_screen) => {
       if (accountant == 0) {
         chronometer = setInterval(function () {
           accountant ++
-          console.log(accountant);
+          $(".show-counter").text(accountant);
           if (accountant == 21) {
             clearInterval(chronometer);
             console.log("se acabo el tiempo");
