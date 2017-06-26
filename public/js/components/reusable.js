@@ -55,7 +55,7 @@ const Icon = (dinamic_url) => {
 }
 
 const Confirm_btn = (text, callback) => {
-  const btn_container = $("<div class='btn-container text-center'></div>");
+  const btn_container = $("<div class='btn-container text-center'  id='btn-container'></div>");
   const btn_confirm = $("<button disabled type='button' class='btn-confirm text-white'>" + text + "</button>");
 
   btn_confirm.on("click", callback);

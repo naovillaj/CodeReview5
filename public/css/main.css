@@ -8,6 +8,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h3{
+  line-height: 29px;
+}
+
 /*UTILITIES*/
 .wrapper {
   padding: 15% 10%;
@@ -28,7 +32,7 @@ body {
   background-color: #212121;
 }
 .text-size078{
-  font-size: 0.78rem;
+  font-size: 0.84rem;
 }
 .text-white {
   color: #ffffff;
@@ -44,13 +48,12 @@ body {
 }
 .btn-confirm {
   border-radius: 5px;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   font-weight: 600;
   text-transform: uppercase;
 }
 .link {
   color: #00c3a3;
-  font-weight: bold;
   text-decoration: none;
   outline: 0;
 }
@@ -58,7 +61,7 @@ body {
 /*REUSABLE COMPONENTS*/
 /*Slide*/
 .slide .picture-container img {
-  width: 80%;
+  width: 70%;
 }
 
 /*Slide Buttons*/
@@ -68,19 +71,19 @@ body {
 .slide-buttons span{
   border-radius: 50%;
   display: inline-block;
-  height: 15px;
+  height: 12px;
   margin: 0 0.15rem;
-  width: 15px;
+  width: 12px;
 }
 
 /*Title*/
 .title {
-  padding: 1rem 0;
+  padding: 0.2rem 0;
 }
 
 /*Title*/
 .subtitle {
-  padding: 1rem 0;
+  padding: 1.2rem 0 0.2rem 0;
 }
 
 /*Instructions*/
@@ -90,8 +93,7 @@ body {
 }
 
 .instructions p {
-  font-size: 0.78rem;
-  font-weight: bold;
+  font-size: 0.8rem;
 }
 
 /*Recomendations*/
@@ -106,12 +108,12 @@ body {
 
 /*Button Confirm*/
 .btn-container {
-  padding: 1rem 0;
+  padding: 4rem 0;
 }
 
 /*Icon Screen*/
 .icon-container img {
-  width: 50%;
+  width: 36%;
 }
 
 /*User Action*/
@@ -134,7 +136,7 @@ body {
   width: 7.5%;
 }
 .input-field i.prefix img{
-  width: 100%;
+  width: 70%;
 }
 .input-field input{
   font-size: 1.25rem;
@@ -149,7 +151,6 @@ body {
 
 .checkbox-field label {
   margin-left: 0.5rem;
-  font-weight: bold;
 }
 
 /*COMPONENTS*/
@@ -159,11 +160,12 @@ body {
 }
 .welcome .instructions p {
   font-size: 1rem;
+  line-height: 25px;
 }
 
 /*Register Phone*/
 .register-phone .btn-confirm {
-  width: 50%;
+  width: 40%;
 }
 .register-phone .input-field input{
   width: 70%;
@@ -184,4 +186,8 @@ body {
 }
 .resend-code .recommendations i img {
   width: 60%;
+}
+/**/
+#btn-container{
+      padding: 1rem 0 !important;
 }
