@@ -35,5 +35,5 @@ Así se ven las tres primeras portadas del App.<br/>
 * [Mery Cardenas](https://github.com/RuthMeryCardenas)
 * [Neiza Nuñez ](https://github.com/Neiza)
 * [Karin Alejo](https://github.com/KarinAAC)
-* [Mitch]()
+* [Mitch Rodríguez](https://github.com/mishrole)
 * [Stephanie Hiyagon](https://github.com/stephHiyagon)
