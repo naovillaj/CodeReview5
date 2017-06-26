@@ -25,9 +25,18 @@ const render = (current_screen) => {
 
   switch (current_screen) {
     case null:
-      wrapper.append(Slide());
-      wrapper.append(Welcome());
+      root.addClass("bg-purple");
+      wrapper.append(S1LoadingPage());
+      setTimeout(() => {
+        state.current_screen = "Welcome";
+        render(state.current_screen);
+      }, 3000);
       break;
+      case "Welcome":
+        root.removeClass("bg-purple");
+        wrapper.append(Slide());
+        wrapper.append(Welcome());
+        break;
     case "Register_Phone":
       wrapper.append(Register_Phone());
       break;
@@ -52,7 +61,7 @@ const render = (current_screen) => {
       // wrapper.append(Create_User());
       break;
     default:
-      wrapper.append(Welcome());
+      wrapper.append(S1LoadingPage());
   }
   root.append(wrapper);
   $('.owl-carousel').owlCarousel({

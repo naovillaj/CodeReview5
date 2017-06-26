@@ -27,6 +27,9 @@ body {
 .bg-grayDark {
   background-color: #212121;
 }
+.bg-purple {
+  background-color: #421f35;
+}
 .text-size078{
   font-size: 0.78rem;
 }
@@ -42,6 +45,29 @@ body {
 .text-center {
   text-align: center;
 }
+.container-S1{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 440px;
+}
+
+.yape-logoS1{
+  position: absolute;
+  top: 35%;
+  left: 23%;
+  width: 55%;
+}
+
+.bcp-logoS1{
+   position: absolute;
+   bottom: 0%;
+   left: 36%;
+   width: 28%;
+}
+
 .btn-confirm {
   border-radius: 5px;
   padding: 1rem 0;
