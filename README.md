@@ -33,7 +33,7 @@ Así se ven las tres primeras portadas del App.<br/>
 ##  Créditos
 * [Naomi Villanueva](https://github.com/naovillaj)
 * [Mery Cardenas](https://github.com/RuthMeryCardenas)
-* [Neiza ](https://github.com/Neiza)
+* [Neiza Nuñez ](https://github.com/Neiza)
 * [Karin Alejo](https://github.com/KarinAAC)
 * [Mitch]()
 * [Stephanie Hiyagon](https://github.com/stephHiyagon)
